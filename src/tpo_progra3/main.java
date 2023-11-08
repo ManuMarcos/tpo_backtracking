@@ -8,10 +8,9 @@ public class main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int rangoDesde = 500;
-		int rangoHasta = 900;
-		List<List<Integer>> nucleotidos = Arrays.asList(Arrays.asList(4,6,8), Arrays.asList(5,9,2),
-				Arrays.asList(5,9,2));
+		int rangoDesde = 40;
+		int rangoHasta = 78;
+		List<List<Integer>> nucleotidos = Arrays.asList(Arrays.asList(5,3,7), Arrays.asList(4,5,9,2));
 		
 		encontrarGenomaHumanoBacktracking backtracking = new encontrarGenomaHumanoBacktracking();
 		
@@ -22,8 +21,6 @@ public class main {
 		for(int i : resultados) {
 			System.out.print(i + " - ");
 		}
-				
-		
 	}
 	
 	
