@@ -6,10 +6,11 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/manue/OneDrive - Fundación UADE/1-2do Cuatrimestre 2023/Programacion 3/TPO/tpo_progra3/ProyectoTPO2C-ViernesVirtual-2023.jar">
+	<classpathentry kind="lib" path="C:/Users/manue/OneDrive - Fundación UADE/1-2do Cuatrimestre 2023/Programacion 3/TPO/tpo_progra3/ProyectoTPO2C-ViernesVirtual-2023.jar" sourcepath="C:/Users/manue/OneDrive - Fundación UADE/1-2do Cuatrimestre 2023/Programacion 3/TPO/tpo_progra3/ProyectoTPO2C-ViernesVirtual-2023.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,4 +1,4 @@
-package tpo_progra3;
+package uade.edu.tpo;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.List;
 
 import uade.edu.ar.gen.AlgoritmoGenomaHumano;
 
-public class encontrarGenomaHumanoBacktracking  {
+public class EncontrarGenomaHumano  {
 
 	
 	public List<Integer> encontrarGenomaHumano(List<List<Integer>> nucleotidos, int rangoDesde, 

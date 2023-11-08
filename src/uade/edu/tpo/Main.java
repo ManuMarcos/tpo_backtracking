@@ -1,18 +1,19 @@
-package tpo_progra3;
+package uade.edu.tpo;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class main {
+public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
+		/*
 		int rangoDesde = 40;
 		int rangoHasta = 78;
 		List<List<Integer>> nucleotidos = Arrays.asList(Arrays.asList(5,3,7), Arrays.asList(4,5,9,2));
 		
-		encontrarGenomaHumanoBacktracking backtracking = new encontrarGenomaHumanoBacktracking();
+		EncontrarGenomaHumano backtracking = new EncontrarGenomaHumano();
 		
 		List<Integer> resultados = backtracking.encontrarGenomaHumano(nucleotidos, rangoDesde, rangoHasta);
 		System.out.println();
@@ -21,6 +22,8 @@ public class main {
 		for(int i : resultados) {
 			System.out.print(i + " - ");
 		}
+		*/
+		
 	}
 	
 	
