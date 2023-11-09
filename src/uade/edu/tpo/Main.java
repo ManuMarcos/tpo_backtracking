@@ -15,7 +15,7 @@ public class Main {
 		*/
 		
 		int rangoDesde = 3330;
-		int rangoHasta = 4224;
+		int rangoHasta = 5224;
 		List<List<Integer>> nucleotidos = Arrays.asList(Arrays.asList(3,2,1,5,6), Arrays.asList(3,4,2),
 				Arrays.asList(2,9,3,2), Arrays.asList(4,8,7,3));
 		

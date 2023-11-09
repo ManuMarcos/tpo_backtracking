@@ -25,9 +25,7 @@ public class EncontrarGenomaHumano implements AlgoritmoGenomaHumano{
 		
 		for (int i = 0; i < nucleotidos.get(etapa).size(); i++) {
 			solucionParcial = solucionParcial * 10 + nucleotidos.get(etapa).get(i);
-			System.out.print("Pruebo : ");
-			System.out.print(solucionParcial);
-			System.out.println();
+			System.out.print("Pruebo: " + solucionParcial + "  ");
 			if (esFactible(solucionParcial, rangoDesde, rangoHasta, nucleotidos.size() - 1, etapa)) {
 				if(etapa == nucleotidos.size() - 1) {
 					soluciones.add(solucionParcial);
@@ -42,12 +40,14 @@ public class EncontrarGenomaHumano implements AlgoritmoGenomaHumano{
 
 	private boolean esFactible(int numero, int minimo, int maximo, int cifras, int etapa) {
 		minimo = (int) (minimo / Math.pow(10, cifras - etapa));
-		System.out.println("Minimo: " + minimo);
+		System.out.print("Minimo: " + minimo + " ");
 		maximo = (int) (maximo / Math.pow(10, cifras - etapa));
-		System.out.println("Maximo: " + maximo);
+		System.out.print("Maximo: " + maximo + " ");
 		if (numero >= minimo && numero <= maximo) {
+			System.out.println("-> Es Factible");
 			return true;
 		}
+		System.out.println("-> No es Factible");
 		return false;
 	}
 
