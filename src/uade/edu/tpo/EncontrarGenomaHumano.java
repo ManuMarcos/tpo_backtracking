@@ -41,13 +41,11 @@ public class EncontrarGenomaHumano implements AlgoritmoGenomaHumano{
 	}
 
 	private boolean esFactible(int numero, int minimo, int maximo, int cifras, int etapa) {
-		int minimo_aux;
-		int maximo_aux;
-		minimo_aux = (int) (minimo / Math.pow(10, cifras - etapa));
-		System.out.println("Minimo: " + minimo_aux);
-		maximo_aux = (int) (maximo / Math.pow(10, cifras - etapa));
-		System.out.println("Maximo: " + maximo_aux);
-		if (numero >= minimo_aux && numero <= maximo_aux) {
+		minimo = (int) (minimo / Math.pow(10, cifras - etapa));
+		System.out.println("Minimo: " + minimo);
+		maximo = (int) (maximo / Math.pow(10, cifras - etapa));
+		System.out.println("Maximo: " + maximo);
+		if (numero >= minimo && numero <= maximo) {
 			return true;
 		}
 		return false;
